@@ -20,7 +20,7 @@ This README file is broken into several parts as outlined here:
 <BR>  4.2 Gas Species and Soot
 <BR>  4.3 Heat Flux
 <BR>  4.4 Velocity
-<BR>  4.5 Liquid Fuel Temperature
+<BR>  4.5 Liquid FUel Temperature
 6. References
 7.  List of Contributors to the Measurements
 
