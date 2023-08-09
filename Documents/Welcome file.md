@@ -5,23 +5,23 @@ This directory contains experimental data from measurements in eight steadily bu
 This README file is broken into several parts as outlined here:    
 1. Overview of NIST Pool Fire Data
 2. Description of Burners, Coordinate Systems and Boundary Conditions
-	2.1 Burners
-	2.2 Fuel Mass Flux
-	2.3 Surface Temperature
+2.1 Burners
+2.2 Fuel Mass Flux
+2.3 Surface Temperature
 3. Global Measurements
-	3.1 Radiative Fraction
-	3.2 Puffing Frequency
-	3.3 Flame Height
-	3.4 Total Heat Feedback to the Fuel Surface
-	3.5 Soot and CO Yields
-	3.6 Heat Release Rate (HRR)
-	3.7 Combustion Efficiency
+3.1 Radiative Fraction
+3.2 Puffing Frequency
+3.3 Flame Height
+3.4 Total Heat Feedback to the Fuel Surface
+3.5 Soot and CO Yields
+3.6 Heat Release Rate (HRR)
+3.7 Combustion Efficiency
 4. Local Measurements
-	4.1 Gas-Phase Temperature
-	4.2 Gas Species and Soot
-	4.3 Heat Flux
-	4.4 Velocity  
-	4.5 Liquid Fuel Temperature
+4.1 Gas-Phase Temperature
+4.2 Gas Species and Soot
+4.3 Heat Flux
+4.4 Velocity  
+4.5 Liquid Fuel Temperature
 5. References
 6.  List of Contributors to the Measurements
 
@@ -29,8 +29,8 @@ The **MaCFP 2** meeting focused on the structure of the 30 cm and 100 cm methano
 
 **Table 1.1    The measured fuel mass flux ($\dot m$''), surface temperature (T<sub>surf</sub> ), radiative fraction, and dominant puffing frequency for gaseous and liquid pool fires; also listed are locations of the thermocouple temperature profile data. The thermocouple bead diameter for each specific temperature profile is listed in Table 4.1 (below). The uncertainties in the table represent the standard deviation of the measured values.**  
 
-|ID (cm)|  Fuel    | $\dot m$'' g/(m<sup>2</sup>-s) | T<sub>surf</sub> (°C)<sup>++</sup> | Rad Frac   | Freq (Hz) | TC Profiles              |   References                                    |
-|-------|----------|--------------------------------|------------------------------------|------------|-----------|:------------------------:|:-----------------------------------------:|-----|
+|ID (cm)|  Fuel    | $\dot m$'' g/(m<sup>2</sup>-s) | T<sub>surf</sub> (°C)<sup>++</sup> | Rad Frac   | Freq (Hz) | TC Profiles              |   References                                    
+|-------|----------|--------------------------------|------------------------------------|------------|-----------|:------------------------:|:-----------------------------------------:|-----
 | 30.1  | Methanol | 13.1±0.9                       | 65±1                               | 0.22±0.02  | 2.49±0.04 | r=0; z=3.8,30.8,41,51,61 |  1,2,3<sup>+</sup>,4,5<sup>+</sup>, 6\*,7,9,10,14<sup>+</sup>, 15\*\*                                       
 | 30.1  | Ethanol  | 14.8±1.2                       | 79±2                               | 0.26±0.07  | 2.41±0.10 | r=0                      | 1,2,3<sup>+</sup>,6\*                               |
 | 30.1  | Acetone  | 18.3±0.6                       | 57±1                               | 0.31±0.06  | 2.45±0.12 | r=0                      |  1,2,3<sup>+</sup>,6\*                              |
