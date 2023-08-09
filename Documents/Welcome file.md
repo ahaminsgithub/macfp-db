@@ -1,45 +1,44 @@
-﻿
 ## 1. Overview of NIST Pool Fire Data 
-
 This directory contains experimental data from measurements in eight steadily burning liquid and gaseous pool fires established in a well-ventilated, quiescent environment. Results using 30 cm and 100 cm diameter, circular, water-cooled, liquid pool burners are reported. Results using a 37 cm diameter, water-cooled, gaseous burner are also reported.  A warm-up period of 5 to 10 min was required for the fires to become quasi-steady. 
 
-This README file is broken into several parts as outlined here:    
+This README file is broken into several parts:    
 1. Overview of NIST Pool Fire Data
 2. Description of Burners, Coordinate Systems and Boundary Conditions
-	2.1 Burners
-	2.2 Fuel Mass Flux
-	2.3 Surface Temperature
+<BR>  2.1 Burners
+<BR>  2.2 Fuel Mass Flux
+<BR>  2.3 Surface Temperature
 3. Global Measurements
-	3.1 Radiative Fraction
-	3.2 Puffing Frequency
-	3.3 Flame Height
-	3.4 Total Heat Feedback to the Fuel Surface
-	3.5 Soot and CO Yields
-	3.6 Heat Release Rate (HRR)
-	3.7 Combustion Efficiency
+<BR>  3.1 Radiative Fraction
+<BR>  3.2 Puffing Frequency
+<BR>  3.3 Flame Height
+<BR>  3.4 Total Heat Feedback to the Fuel Surface
+<BR>  3.5 Soot and CO Yields
+<BR>  3.6 Heat Release Rate (HRR)
+<BR>  3.7 Combustion Efficiency
 4. Local Measurements
-	4.1 Gas-Phase Temperature
-	4.2 Gas Species and Soot
-	4.3 Heat Flux
-	4.4 Velocity  
-	4.5 Liquid Fuel Temperature
-5. References
-6.  List of Contributors to the Measurements
+<BR>  4.1 Gas-Phase Temperature
+<BR>  4.2 Gas Species and Soot
+<BR>  4.3 Heat Flux
+<BR>  4.4 Velocity
+<BR>  4.5 Liquid FUel Temperature
+6. References
+7.  List of Contributors to the Measurements
 
 The **MaCFP 2** meeting focused on the structure of the 30 cm and 100 cm methanol pool fires described in Table 1.1 below.  The **MaCFP 3** meeting is focused on the centerline chemical species profiles and supporting information in all eight of the pool fires listed in Table 1.1  Additional information on the 30 cm methanol pool fire is available from the University of Waterloo - see: https://github.com/MaCFP/macfp-db/tree/master/Liquid_Pool_Fires/Waterloo_Methanol)
 
+
 **Table 1.1    The measured fuel mass flux ($\dot m$''), surface temperature (T<sub>surf</sub> ), radiative fraction, and dominant puffing frequency for gaseous and liquid pool fires; also listed are locations of the thermocouple temperature profile data. The thermocouple bead diameter for each specific temperature profile is listed in Table 4.1 (below). The uncertainties in the table represent the standard deviation of the measured values.**  
 
-|ID (cm)|  Fuel    | $\dot m$'' g/(m<sup>2</sup>-s) | T<sub>surf</sub> (°C)<sup>++</sup> | Rad Frac   | Freq (Hz) | TC Profiles              |   References                                    |
-|-------|----------|--------------------------------|------------------------------------|------------|-----------|:------------------------:|:-----------------------------------------:|-----|
-| 30.1  | Methanol | 13.1±0.9                       | 65±1                               | 0.22±0.02  | 2.49±0.04 | r=0; z=3.8,30.8,41,51,61 |  1,2,3<sup>+</sup>,4,5<sup>+</sup>, 6\*,7,9,10,14<sup>+</sup>, 15\*\*                                       
-| 30.1  | Ethanol  | 14.8±1.2                       | 79±2                               | 0.26±0.07  | 2.41±0.10 | r=0                      | 1,2,3<sup>+</sup>,6\*                               |
-| 30.1  | Acetone  | 18.3±0.6                       | 57±1                               | 0.31±0.06  | 2.45±0.12 | r=0                      |  1,2,3<sup>+</sup>,6\*                              |
-| 37    | Methane  | 6.41±0.1                       | 60±20                              | 0.22±0.01  | 2.48±0.10 | r=0                      |  3<sup>+,++</sup>,12\*,13\*                         |
-| 37    | Propane  | 4.16±0.1                       | 60±20                              | 0.23±0.04  | 2.32±0.10 | r=0                      |  3<sup>+,++</sup>,12\, 16\*,\*\*                    |
-| 37    | Propane  | 6.91±0.1                       | 60±20                              | 0.30±0.05  | 2.41±0.10 | r=0                      |  3<sup>+,++</sup>,12\, 16\*,\*\*                    |
-| 37    | Propane  | 10.0±0.1                       | 60±20                              | 0.33±0.05  | 2.27±0.11 | r=0                      | 3<sup>+,++</sup>,12\, 16\*,\*\*                     |
-| 100.6 | Methanol | 16.3±0.2                       | 65 ± 1                             | 0.21±0.01  | 1.37±0.03 | r=0; z=21,61,101,141,181 | 1\*,7\*,8<sup>*,**</sup>\*,8*\*,14<sup>+</sup>      |
+| ID (cm) | Fuel     |  ‘’ g/(m2-s) | Tsurf (°C)++ | Rad Frac  | Freq (Hz) | TC Profiles              | References                        |   
+|---------|----------|--------------|--------------|-----------|-----------|--------------------------|-----------------------------------|
+| 30.1    | Methanol | 13.1±0.9     | 65±1         | 0.22±0.02 | 2.49±0.04 | r=0; z=3.8,30.8,41,51,61 | 1,2,3+,4,5+, 6*,7,9,10,14+, 15**  | 
+| 30.1    | Ethanol  | 14.8±1.2     | 79±2         | 0.26±0.07 | 2.41±0.10 | r=0                      | 1,2,3+,6*                         | 
+| 30.1    | Acetone  | 18.3±0.6     | 57±1         | 0.31±0.06 | 2.45±0.12 | r=0                      | 1,2,3+,6*                         |
+| 37      | Methane  | 6.41±0.1     | 60±20        | 0.22±0.01 | 2.48±0.10 | r=0                      | 3+,++,12*,13*                     | 
+| 37    | Propane  | 4.16±0.1                       | 60±20               | 0.23±0.04  | 2.32±0.10|r=0                      |  3<sup>+,++</sup>,12\, 16\*,\*\*                    |
+| 37    | Propane  | 6.91±0.1                       | 60±20               | 0.30±0.05  | 2.41±0.10|r=0                      |  3<sup>+,++</sup>,12\, 16\*,\*\*                    |
+| 37    | Propane  | 10.0±0.1                       | 60±20               | 0.33±0.05  | 2.7±0.11 |r=0                      | 3<sup>+,++</sup>,12\, 16\*,\*\*                     |
+| 100.6 | Methanol | 16.3±0.2                       | 65 ± 1              | 0.21±0.01  | 1.37±0.03|r=0;z=21,61,101,141,181| 1\*,7\*,8<sup>*,**</sup>\*,8*\*,14<sup>+</sup>        |
 
 \* Radiative fraction  
 \*\* Puffing frequency  
@@ -147,6 +146,7 @@ The image above is a schematic drawing of a liquid burner, illustrating its feat
 | 37    | Propane  | 6.9± 0.1           | 50±16 | 2.9±0.2  | 3.6± 0.2 |  4.6±0.6 |  
 | 37    | Propane  | 10.0± 0.1          | 96±17 | 2.5±0.2  | 3.4±0.3  | 5.6± 0.2 |
 | 100.6 | Methanol | 16.3± 0.2          | 110±22| 20±10    | 0.16±0.02|  0 **    |
+
 \*  below the detection limit of the measurement system
 ** soot was not observed at any fire location and the soot yield can be taken as 0
 
@@ -347,14 +347,14 @@ https://doi.org/10.6028/NIST.TN.2083r1; also see Sung, K., J. Chen, M. Bundy, an
 <Br>
 
 ## 6. List of Contributors to the Measurements
-Kunhyuk Sung (NIST)
-Ryan Falkenstein-Smith (NIST)
-Matthew Bundy (NIST)
-Marco Fernandez (NIST)
-Laurean DeLauter (NIST)
-Sung Chan Kim (Kyung-IL University, South Korea)
-Jian Chen (East China University of Petroleum, China)
-Ki Yong Lee (Andong National University, South Korea)
-Anthony Hamins (NIST) 
+<BR> Kunhyuk Sung (NIST)
+<BR> Ryan Falkenstein-Smith
+<BR> Matthew Bundy (NIST)
+<BR> Marco Fernandez (NIST)
+<BR> Laurean DeLauter (NIST)
+<BR> Sung Chan Kim (Kyung-IL University, South Korea)
+<BR> Jian Chen (East China University of Petroleum, China)
+<BR> Ki Yong Lee (Andong National University, South Korea)
+<BR> Anthony Hamins (NIST) 
 
 
