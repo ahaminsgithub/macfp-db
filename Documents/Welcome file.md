@@ -19,10 +19,10 @@ This README file is broken into several parts as outlined here:
 <BR>  4.1 Gas-Phase Temperature
 <BR>  4.2 Gas Species and Soot
 <BR>  4.3 Heat Flux
-<BR>  4.4 Velocity  
+<BR>  4.4 Velocity
 <BR>  4.5 Liquid Fuel Temperature
-5. References
-6.  List of Contributors to the Measurements
+6. References
+7.  List of Contributors to the Measurements
 
 The **MaCFP 2** meeting focused on the structure of the 30 cm and 100 cm methanol pool fires described in Table 1.1 below.  The **MaCFP 3** meeting is focused on the centerline chemical species profiles and supporting information in all eight of the pool fires listed in Table 1.1  Additional information on the 30 cm methanol pool fire is available from the University of Waterloo - see: https://github.com/MaCFP/macfp-db/tree/master/Liquid_Pool_Fires/Waterloo_Methanol)
 
@@ -146,6 +146,7 @@ The image above is a schematic drawing of a liquid burner, illustrating its feat
 | 37    | Propane  | 6.9± 0.1           | 50±16 | 2.9±0.2  | 3.6± 0.2 |  4.6±0.6 |  
 | 37    | Propane  | 10.0± 0.1          | 96±17 | 2.5±0.2  | 3.4±0.3  | 5.6± 0.2 |
 | 100.6 | Methanol | 16.3± 0.2          | 110±22| 20±10    | 0.16±0.02|  0 **    |
+
 \*  below the detection limit of the measurement system
 ** soot was not observed at any fire location and the soot yield can be taken as 0
 
@@ -346,14 +347,14 @@ https://doi.org/10.6028/NIST.TN.2083r1; also see Sung, K., J. Chen, M. Bundy, an
 <Br>
 
 ## 6. List of Contributors to the Measurements
-Kunhyuk Sung (NIST)
-Ryan Falkenstein-Smith (NIST)
-Matthew Bundy (NIST)
-Marco Fernandez (NIST)
-Laurean DeLauter (NIST)
-Sung Chan Kim (Kyung-IL University, South Korea)
-Jian Chen (East China University of Petroleum, China)
-Ki Yong Lee (Andong National University, South Korea)
-Anthony Hamins (NIST) 
+<BR> Kunhyuk Sung (NIST)
+<BR> Ryan Falkenstein-Smith
+<BR> Matthew Bundy (NIST)
+<BR> Marco Fernandez (NIST)
+<BR> Laurean DeLauter (NIST)
+<BR> Sung Chan Kim (Kyung-IL University, South Korea)
+<BR> Jian Chen (East China University of Petroleum, China)
+<BR> Ki Yong Lee (Andong National University, South Korea)
+<BR> Anthony Hamins (NIST) 
 
 
