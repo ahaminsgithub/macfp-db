@@ -4,8 +4,6 @@ This directory contains experimental data from measurements in eight steadily bu
 
 This README file is broken into several parts as outlined here:    
 1. Overview of NIST Pool Fire Data
-
-<Br>
 2. Description of Burners, Coordinate Systems and Boundary Conditions
 <Br>
 	2.1 Burners
@@ -15,18 +13,30 @@ This README file is broken into several parts as outlined here:
 	2.3 Surface Temperature
 <Br>
 3. Global Measurements
+<Br>	
 	3.1 Radiative Fraction
+<Br>	
 	3.2 Puffing Frequency
+<Br>	
 	3.3 Flame Height
+<Br>	
 	3.4 Total Heat Feedback to the Fuel Surface
+<Br>	
 	3.5 Soot and CO Yields
+<Br>	
 	3.6 Heat Release Rate (HRR)
+<Br>	
 	3.7 Combustion Efficiency
 4. Local Measurements
+<Br>	
 	4.1 Gas-Phase Temperature
+<Br>	
 	4.2 Gas Species and Soot
+<Br>
 	4.3 Heat Flux
+<Br>	
 	4.4 Velocity  
+<Br>	
 	4.5 Liquid Fuel Temperature
 5. References
 6.  List of Contributors to the Measurements
