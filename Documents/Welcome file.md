@@ -1,4 +1,3 @@
-﻿
 ## 1. Overview of NIST Pool Fire Data 
 
 This directory contains experimental data from measurements in eight steadily burning liquid and gaseous pool fires established in a well-ventilated, quiescent environment. Results using 30 cm and 100 cm diameter, circular, water-cooled, liquid pool burners are reported. Results using a 37 cm diameter, water-cooled, gaseous burner are also reported.  A warm-up period of 5 to 10 min was required for the fires to become quasi-steady. 
