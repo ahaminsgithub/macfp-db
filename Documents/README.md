@@ -29,16 +29,17 @@ The **MaCFP 2** meeting focused on the structure of the 30 cm and 100 cm methano
 
 **Table 1.1    The measured fuel mass flux ($\dot m$''), surface temperature (T<sub>surf</sub> ), radiative fraction, and dominant puffing frequency for gaseous and liquid pool fires; also listed are locations of the thermocouple temperature profile data. The thermocouple bead diameter for each specific temperature profile is listed in Table 4.1 (below). The uncertainties in the table represent the standard deviation of the measured values.**  
 
-| ID (cm) | Fuel     |  ‘’ g/(m2-s) | Tsurf (°C)++ | Rad Frac  | Freq (Hz) | TC Profiles              | References                        |   
-|---------|----------|--------------|--------------|-----------|-----------|--------------------------|-----------------------------------|
-| 30.1    | Methanol | 13.1±0.9     | 65±1         | 0.22±0.02 | 2.49±0.04 | r=0; z=3.8,30.8,41,51,61 | 1,2,3+,4,5+, 6*,7,9,10,14+, 15**  | 
-| 30.1    | Ethanol  | 14.8±1.2     | 79±2         | 0.26±0.07 | 2.41±0.10 | r=0                      | 1,2,3+,6*                         | 
-| 30.1    | Acetone  | 18.3±0.6     | 57±1         | 0.31±0.06 | 2.45±0.12 | r=0                      | 1,2,3+,6*                         |
-| 37      | Methane  | 6.41±0.1     | 60±20        | 0.22±0.01 | 2.48±0.10 | r=0                      | 3+,++,12*,13*                     | 
-| 37    | Propane  | 4.16±0.1                       | 60±20               | 0.23±0.04  | 2.32±0.10|r=0                      |  3<sup>+,++</sup>,12\, 16\*,\*\*                    |
-| 37    | Propane  | 6.91±0.1                       | 60±20               | 0.30±0.05  | 2.41±0.10|r=0                      |  3<sup>+,++</sup>,12\, 16\*,\*\*                    |
-| 37    | Propane  | 10.0±0.1                       | 60±20               | 0.33±0.05  | 2.7±0.11 |r=0                      | 3<sup>+,++</sup>,12\, 16\*,\*\*                     |
-| 100.6 | Methanol | 16.3±0.2                       | 65 ± 1              | 0.21±0.01  | 1.37±0.03|r=0;z=21,61,101,141,181| 1\*,7\*,8<sup>*,**</sup>\*,8*\*,14<sup>+</sup>        |
+| ID   | Fuel     | $\dot m$‘’ | Tsurf ++ | Rad Frac  | Freq      | TC Profiles              | References                        |   
+|------|----------|------------|----------|-----------|-----------|--------------------------|-----------------------------------|
+| cm   | Fuel     |  g/(m2-s)  | °C       | -         | Hz        | -                        | -                                 | 
+| 30.1 | Methanol | 13.1±0.9   | 65±1     | 0.22±0.02 | 2.49±0.04 | r=0; z=3.8,30.8,41,51,61 | 1,2,3+,4,5+, 6*,7,9,10,14+, 15**  |
+| 30.1 | Ethanol  | 14.8±1.2   | 79±2     | 0.26±0.07 | 2.41±0.10 | r=0                      | 1,2,3+,6*                         |
+| 30.1 | Acetone  | 18.3±0.6   | 57±1     | 0.31±0.06 | 2.45±0.12 | r=0                      | 1,2,3+,6*                         |
+| 37   | Methane  | 6.41±0.1   | 60±20    | 0.22±0.01 | 2.48±0.10 | r=0                      | 3+,++,12*,13*                     |
+| 37    | Propane  | 4.16±0.1                       | 60±20          | 0.23±0.04  | 2.32±0.10|r=0                      |  3<sup>+,++</sup>,12\, 16\*,\*\*                    |
+| 37    | Propane  | 6.91±0.1                       | 60±20          | 0.30±0.05  | 2.41±0.10|r=0                      |  3<sup>+,++</sup>,12\, 16\*,\*\*                    |
+| 37    | Propane  | 10.0±0.1                       | 60±20          | 0.33±0.05  | 2.7±0.11 |r=0                      | 3<sup>+,++</sup>,12\, 16\*,\*\*                     |
+| 100.6 | Methanol | 16.3±0.2                       | 65 ± 1         | 0.21±0.01  | 1.37±0.03|r=0;z=21,61,101,141,181| 1\*,7\*,8<sup>*,**</sup>\*,8*\*,14<sup>+</sup>        |
 
 \* Radiative fraction  
 \*\* Puffing frequency  
