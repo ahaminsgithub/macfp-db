@@ -348,7 +348,7 @@ https://doi.org/10.6028/NIST.TN.2083r1; also see Sung, K., J. Chen, M. Bundy, an
 
 ## 6. List of Contributors to the Measurements
 <BR> Kunhyuk Sung (NIST)
-<BR> Ryan Falkenstein-Smith
+<BR> Ryan Falkenstein-Smith (NIST)
 <BR> Matthew Bundy (NIST)
 <BR> Marco Fernandez (NIST)
 <BR> Laurean DeLauter (NIST)
