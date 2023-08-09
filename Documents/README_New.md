@@ -5,7 +5,6 @@ This directory contains experimental data from measurements in eight steadily bu
 This README file is broken into several parts as outlined here:    
 1. Overview of NIST Pool Fire Data
 2. Description of Burners, Coordinate Systems and Boundary Conditions
-<Br>
 	2.1 Burners
 <Br>
 	2.2 Fuel Mass Flux
