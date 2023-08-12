@@ -32,14 +32,14 @@ The **MaCFP 2** meeting focused on the structure of the 30 cm and 100 cm methano
 | ID   | Fuel     | $\dot m$‘’ | Tsurf ++ | Rad Frac  | Freq      | TC Profiles              | References                        |   
 |------|----------|------------|----------|-----------|-----------|--------------------------|-----------------------------------|
 | cm   |      -   |  g/(m2-s)  | °C       | -         | Hz        | -                        | -                                 | 
-| 30.1 | Methanol | 13.1±0.9   | 65±1     | 0.22±0.02 | 2.49±0.04 | r=0; z=3.8,30.8,41,51,61 | 1,2,3+,4,5+, 6*,7,9,10,14+, 15**  |
-| 30.1 | Ethanol  | 14.8±1.2   | 79±2     | 0.26±0.07 | 2.41±0.10 | r=0                      | 1,2,3+,6*                         |
-| 30.1 | Acetone  | 18.3±0.6   | 57±1     | 0.31±0.06 | 2.45±0.12 | r=0                      | 1,2,3+,6*                         |
-| 37   | Methane  | 6.41±0.1   | 60±20    | 0.22±0.01 | 2.48±0.10 | r=0                      | 3+,++,12*,13*                     |
-| 37    | Propane  | 4.16±0.1                       | 60±20          | 0.23±0.04  | 2.32±0.10|r=0                      |  3<sup>+,++</sup>,12\, 16\*,\*\*                    |
-| 37    | Propane  | 6.91±0.1                       | 60±20          | 0.30±0.05  | 2.41±0.10|r=0                      |  3<sup>+,++</sup>,12\, 16\*,\*\*                    |
-| 37    | Propane  | 10.0±0.1                       | 60±20          | 0.33±0.05  | 2.7±0.11 |r=0                      | 3<sup>+,++</sup>,12\, 16\*,\*\*                     |
-| 100.6 | Methanol | 16.3±0.2                       | 65 ± 1         | 0.21±0.01  | 1.37±0.03|r=0;z=21,61,101,141,181| 1\*,7\*,8<sup>*,**</sup>\*,8*\*,14<sup>+</sup>        |
+| 30.1 | Methanol | 13.1±0.9   | 65±1     | 0.226±0.09 | 2.49±0.04 | r=0; z=3.8,30.8,41,51,61 | 1,2,3+,4,5+, 6*,7,9,10,14+, 15**  |
+| 30.1 | Ethanol  | 14.8±1.2   | 79±2     | 0.275±0.02 | 2.41±0.10 | r=0                      | 1,2,3+,6*                         |
+| 30.1 | Acetone  | 18.3±0.6   | 57±1     | 0.31±0.02  | 2.45±0.12 | r=0                      | 1,2,3+,6*                         |
+| 37   | Methane  | 6.41±0.1   | 60±20    | 0.217±0.006 | 2.48±0.10 | r=0                      | 3+,++,12*,13*                     |
+| 37    | Propane  | 4.16±0.1  | 60±20    | 0.226±0.003| 2.32±0.10|r=0                      |  3<sup>+,++</sup>,12\, 16\*,\*\*                     |
+| 37    | Propane  | 6.91±0.1  | 60±20    | 0.301±0.003 | 2.41±0.10|r=0                      |  3<sup>+,++</sup>,12\, 16\*,\*\*                     |
+| 37    | Propane  | 10.0±0.1  | 60±20    | 0.326±0.003 | 2.7±0.11 |r=0                      | 3<sup>+,++</sup>,12\, 16\*,\*\*                     |
+| 100.6 | Methanol | 16.3±0.2  | 65± 1    | 0.21±0.01  | 1.37±0.03|r=0;z=21,61,101,141,181| 1\*,7\*,8<sup>*,**</sup>\*,8*\*,14<sup>+</sup>   |
 
 \* Radiative fraction  
 \*\* Puffing frequency  
@@ -248,7 +248,9 @@ The image above is a schematic drawing of a liquid burner, illustrating its feat
 
 ### 4.3 Heat Flux
 
-* Radiative and total heat flux measurements were made at various locations in the 30 cm and 100 cm methanol pool fires, mapping the heat flux emitted radially outward from the vertical surface and downwards through the bottom surface of a cylindrical control volume about the fire.
+* Radiative and total heat flux measurements were made at various locations in the pool fires, mapping the heat flux emitted (1) radially outward away frm the fire acquired at various heights above the fuel surface through the side surface of a cylindrical control volume about the fire (with the side surface located a distance r from the burner center) and (2) downwards through the bottom surface of a cylindrical control volume about the fire (with the bottom surface located a distance z above the fuel surface).
+
+Vertical profile of total heat flux emitted radially away from the fire acquired at various heights above the fuel surface at r = 60 cm. The heat flux gauges were oriented towards the fire centerline. [6] |
 
 * Table 4.3 below lists the heat flux data filenames with a brief description.
  
@@ -257,6 +259,12 @@ The image above is a schematic drawing of a liquid burner, illustrating its feat
 
 | Experimental Data Filename                          |  Description                     |
 |-----------------------------------------------------|----------------------------------|
+| Acetone_30_cm_HF_radial_z=1_cm_Falkenstein-Smith_2023.csv | Radial profile of total heat flux in the downward direction from near the burner edge (r = 18 cm) to r = 183 cm. The heat flux gauges were z = 1.0 cm above the fuel surface and oriented in the upward direction. [3]|
+| Acetone_30_cm_HF_vertical_r=184_cm_Falkenstein-Smith_2023.csv | Vertical profile of total heat flux emitted radially away from the fire acquired at various heights above the fuel surface at r = 184 cm. The heat flux gauges were oriented towards the fire centerline. [3] |
+| Acetone_30_cm_HF_vertical_r=60_cm_Kim_2019.csv | Vertical profile of total heat flux emitted radially away from the fire acquired at various heights above the fuel surface at r = 60 cm. The heat flux gauges were oriented towards the fire centerline. [6] |
+| Ethanol_30_cm_HF_radial_z=1_cm_Falkenstein-Smith_2023.csv | Radial profile of total heat flux in the downward direction from near the burner edge (r = 18 cm) to r = 183 cm. The heat flux gauges were z = 1.0 cm above the fuel surface and oriented in the upward direction. [3]|
+| Ethanol_30_cm_HF_vertical_r=184_cm_Falkenstein-Smith_2023.csv | Vertical profile of total heat flux emitted radially away from the fire acquired at various heights above the fuel surface at r = 184 cm. The heat flux gauges were oriented towards the fire centerline. [3] |
+| Ethanol_30_cm_HF_vertical_r=60_cm_Kim_2019.csv | Vertical profile of total heat flux emitted radially away from the fire acquired at various heights above the fuel surface at r = 60 cm. The heat flux gauges were oriented towards the fire centerline. [6] |
 | Methanol_30_cm_HF_radial_z=p7_cm_Hamins_1994.csv    | Radial profile of radiative heat flux in the downward direction from the pool center (r = 0) towards the burner edge (r ≅ 15 cm). The heat flux gauges were z = 0.7 cm above the fuel surface and oriented in the upward direction. [4]  |
 | Methanol_30_cm_HF_radial_z=1p3_cm_Kim_2019.csv      | Radial profile of total heat flux in the downward direction from the pool center (r = 0) to r = 15 cm.  The heat flux gauges were oriented in the upward direction and positioned z = 1.3 cm above the fuel surface for 0 ≤ r (cm) ≤ 15. [6] |
 | Methanol_30_cm_HF_radial_z=1_cm_Kim_2019.csv        | Radial profile of total heat flux in the downward direction from r = 15 to 150 cm.  The heat flux gauges were oriented in the upward direction and positioned z = 1.0 cm above the fuel surface for 0 ≤ r (cm) ≤ 15, respectively. [6]|
@@ -293,6 +301,7 @@ The image above is a schematic drawing of a liquid burner, illustrating its feat
 * Type K thermocouples were used to measure time-varying temperatures inside the steadily burning liquid pools at  various (z, r) locations, where z=0 is the fuel surface and z=-14 cm is the bottom of the fuel pool.  
 * The bottom of the fuel pool was water cooled at about 18 C to 20 C and can be taken as isothermal . 
 * The temperature of the surface of the burning liquid fuel pools were nearly at the boiling point - see Section 2.3 and Table 1.1 above.
+* Liquid temperature data for the 100 cm methanol pool fire is not available.
 
 **Table 4.5   Liquid Fuel Temperature data filenames and description.** 
 
