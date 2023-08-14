@@ -203,7 +203,7 @@ The image above is a schematic drawing of a liquid burner, illustrating its feat
 
 | Experimental Data Filename  |  Description             |
 |-----------------------------|--------------------------|
-|  Acetone_30_cm_TC_r=0_Falkenstein-Smith_2022.csv | Centerline thermocouple and gas temperature measurements; type R thermocouple bead diameter=103µm and 125µm. [3] |
+| Acetone_30_cm_TC_r=0_Falkenstein-Smith_2022.csv | Centerline thermocouple and gas temperature measurements; type R thermocouple bead diameter=103µm and 125µm. [3] |
 | Ethanol_30_cm_TC_r=0_Falkenstein-Smith_2022.csv  | Centerline thermocouple temperature measurements; type S thermocouple bead diameter=125µm and 199µm. [3]               |
 | Methanol_30_cm_TC_r=0_Hamins_2016.csv | Centerline thermocouple temperature measurements; type S thermocouple bead diameter=150 µm. [5] |
 | Methanol_30_cm_TC_r=0_Falkenstein-Smith_2022.csv  | Centerline thermocouple temperature measurements; type S thermocouple bead diameter=52µm and 199µm. [3]|
